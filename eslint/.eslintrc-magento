@@ -28,7 +28,7 @@
         "func-call-spacing": [2, "never"],
         "generator-star-spacing": [2, {"after": true, "before": true}],
         "guard-for-in": 2,
-        "indent": [2, 4],
+        "indent": [1, 4],
         "key-spacing": [2, {"afterColon": true, "beforeColon": false}],
         "keyword-spacing": [2, {"after": true, "before": true}],
         "linebreak-style": [2, "unix"],
@@ -136,14 +136,15 @@
             {
                 "args": "after-used",
                 "vars": "all",
-                "varsIgnorePattern": "config"
+                "varsIgnorePattern": "config",
+                "caughtErrors": "none"
             }
         ],
         "no-use-before-define": 2,
         "no-useless-call": 2,
         "no-useless-computed-key": 2,
         "no-useless-constructor": 2,
-        "no-useless-escape": 2,
+        "no-useless-escape": 1,
         "no-useless-rename": 2,
         "no-useless-return": 2,
         "no-var": 2,
